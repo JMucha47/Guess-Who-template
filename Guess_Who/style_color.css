@@ -1,0 +1,37 @@
+/*Background*/
+body{
+    background-color:royalblue;
+}
+
+/*Menus*/
+.sidecontent{
+    background-color: lightskyblue;
+}
+
+/*Buttons*/
+.butt{
+    background-color:dodgerblue;
+    color:cornsilk;
+}
+
+.butt:hover{
+    background-color:royalblue;
+    color:darkgray;
+}
+
+/*Headline*/
+#headline{
+    background-color:rgb(90, 129, 202);
+    color: black;
+}
+
+/*Gameplace*/
+#container{
+    background-color:lightskyblue;
+    color:black;
+}
+
+/*Image Border*/
+.imgHolder{
+    border-color: black;
+}

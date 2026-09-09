@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guess Who</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="style_color.css" rel="stylesheet" type="text/css">
+    <script src="script.js"></script>
+    <script src="names.js"></script>
+</head>
+<body>
+    <!--Operation window-->
+    <div class="sections side">
+        <div id="menu" class="sidecontent">
+            <span class="title">Your Character</span><br>
+            <div class="portrait">
+                <div id="pickedImg" class="imgHolder"><br><br><br><br>[Character not picked]</div>
+                <div id="pickedName" class="names">[Character name]</div>
+            </div>
+            <div class="butt line" onclick="setBoard()">Clear</div>
+            <div id="buttRight" class="butt line" onclick="buttonHandler()">Random</div>
+        </div>
+
+        <div id="notes" class="sidecontent">
+            <span class="title">-- Notes --</span><br>
+            <textarea id="notearea"></textarea>
+        </div>
+    </div>
+
+    <!--Main screen-->
+    <div class="sections center">
+        <div id="container">
+            <div id="headline">Choose your character</div>
+            <div id="gameplan"></div>
+        </div>
+    </div>
+
+    <div id="stopper" class="stopper">Jakub Mucha &copy 2026</div>
+
+    <script>
+        setBoard();
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+const names = [
+    "character1",
+    "character2",
+    "character3",
+    "character4",
+    "character5",
+    "character6",
+    "character7",
+    "character8",
+    "character9",
+    "character10",
+    "character11",
+    "character12",
+    "character13",
+    "character14",
+    "character15",
+    "character16",
+    "character17",
+    "character18",
+    "character19",
+    "character20",
+    "character21"
+]

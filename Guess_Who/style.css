@@ -1,0 +1,223 @@
+/*Entire page*/
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.center{
+    width: 70vw;
+}
+
+.sections{
+    height: 100vh;
+    float: right;
+}
+
+#stopper{
+    width: 100%;
+    height: 5vh;
+    line-height: 5vh;
+    font-size: 3vh;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+/*Gameplace*/
+#container{
+    width: 100%;
+    height: 95vh;
+    margin: 2vh 0;
+}
+
+#headline{
+    width: 100%;
+    height: 5vh;
+    line-height: 5vh;
+    font-size: 3vh;
+    text-align: center;
+}
+
+#gameplan{
+    width: 100%;
+    height: 90vh;
+}
+
+/*Character Portraits*/
+.characters{
+    width: 8vw;
+    height: 28vh;
+    margin: 1vh 1vw;
+    float: left;
+    cursor: pointer;
+}
+
+.portrait{
+    width: 8vw;
+    height: 28vh;
+    margin: auto;
+}
+
+.imgHolder{
+    width: 8vw-4px;
+    height: 25vh;
+    background-size: cover;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.cross{
+    width: 100%;
+    height: 100%;
+    background-image: url(X.png);
+    opacity: 50%;
+    background-size: cover;
+}
+
+.names{
+    width: 8vw;
+    height: 3vh;
+    line-height: 3vh;
+    font-size: 2vh;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+/*Menus*/
+.side{
+    width: 20vw;
+    text-align: center;
+}
+
+.sidecontent{
+    width: 18vw;
+    margin: auto;
+    height: 40vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+textarea{
+    width: 16vw;
+    height: 30vh;
+    resize: none;
+}
+
+.title{
+    line-height: 5vh;
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+/*Buttons*/
+.butt{
+    line-height: 3vh;
+    font-size: 3vh;
+    width: 7vw;
+    height: 3vh;
+    padding: 1vh 0;
+    margin: 1vh 1vw;
+}
+
+.butt:hover{
+    cursor: pointer;
+}
+
+/*Attributes*/
+.line{
+    float: left;
+}
+
+.stopper{
+    clear: both;
+}
+
+/*Images*/
+#character1 .imgHolder{
+    background-image: url(img/1.png);
+}
+
+#character2 .imgHolder{
+    background-image: url(img/2.png);
+}
+
+#character3 .imgHolder{
+    background-image: url(img/3.png);
+}
+
+#character4 .imgHolder{
+    background-image: url(img/4.png);
+}
+
+#character5 .imgHolder{
+    background-image: url(img/5.png);
+}
+
+#character6 .imgHolder{
+    background-image: url(img/6.png);
+}
+
+#character7 .imgHolder{
+    background-image: url(img/7.png);
+}
+
+#character8 .imgHolder{
+    background-image: url(img/8.png);
+}
+
+#character9 .imgHolder{
+    background-image: url(img/9.png);
+}
+
+#character10 .imgHolder{
+    background-image: url(img/10.png);
+}
+
+#character11 .imgHolder{
+    background-image: url(img/11.png);
+}
+
+#character12 .imgHolder{
+    background-image: url(img/12.png);
+}
+
+#character13 .imgHolder{
+    background-image: url(img/13.png);
+}
+
+#character14 .imgHolder{
+    background-image: url(img/14.png);
+}
+
+#character15 .imgHolder{
+    background-image: url(img/15.png);
+}
+
+#character16 .imgHolder{
+    background-image: url(img/16.png);
+}
+
+#character17 .imgHolder{
+    background-image: url(img/17.png);
+}
+
+#character18 .imgHolder{
+    background-image: url(img/18.png);
+}
+
+#character19 .imgHolder{
+    background-image: url(img/19.png);
+}
+
+#character20 .imgHolder{
+    background-image: url(img/20.png);
+}
+
+#character21 .imgHolder{
+    background-image: url(img/21.png);
+}
