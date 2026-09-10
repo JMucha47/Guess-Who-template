@@ -12,7 +12,7 @@ On the right side you'll see two panels for player's use. Bottom one is used to 
 "Random" button (available in "Pick your character" stage) will pick a random character for you.
 "New character" (available in "Game" stage) will start the game anew and put it in "Pick your character" stage.
 
-Currently the template contains placeholder images and names. In order to input your characters into the game you must:
+Currently the template contains placeholder images and names. In order to input your characters into the game you must:\n
 -Prepare 21 images of choosen characters (in .png format)
 -Name them all with different number from 1-21 (as in 1.png, 2.png, 3.png and so on)
 -Go to "img" folder and replace all existing pictures with yours
