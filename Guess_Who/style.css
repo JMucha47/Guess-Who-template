@@ -6,7 +6,7 @@ body{
 }
 
 .center{
-    width: 70vw;
+    width: 71vw;
 }
 
 .sections{
@@ -27,7 +27,6 @@ body{
 /*Gameplace*/
 #container{
     width: 100%;
-    height: 95vh;
     margin: 2vh 0;
 }
 
@@ -42,6 +41,7 @@ body{
 #gameplan{
     width: 100%;
     height: 90vh;
+    overflow-y: scroll;
 }
 
 /*Character Portraits*/
@@ -137,7 +137,7 @@ textarea{
     clear: both;
 }
 
-/*Images*/
+/*Images
 #character1 .imgHolder{
     background-image: url(img/1.png);
 }
@@ -220,4 +220,4 @@ textarea{
 
 #character21 .imgHolder{
     background-image: url(img/21.png);
-}
+}*/

@@ -2,18 +2,20 @@ let picking = true;
 
 function setBoard(){
     let cont = "";
-    for(let i=1;i<=21;i++){
-        cont += `<div id="character${i}" class="characters" onclick="characterHandler(${i})"> <div id="image${i}" class="imgHolder"></div> <div class="names">${names[i-1]}</div> </div>`;
+    let name;
+    for(let i=1;i<=howManyCharacters;i++){
+        name = i<=names.length ? names[i-1] : "[Name not found]";
+        cont += `<div id="character${i}" class="characters" onclick="characterHandler(${i})"> <div id="image${i}" class="imgHolder" style="background-image: url('img/${i}.png');"></div> <div class="names">${name}</div> </div>`;
     }
 
-    document.getElementById("gameplan").innerHTML = cont;
+    document.getElementById("gameplan").innerHTML = cont+"<div class='stopper'></div>";
 }
 
 function characterHandler(id){
     if(picking){
         document.getElementById("pickedImg").style.backgroundImage = `url(img/${id}.png)`;
         document.getElementById("pickedImg").innerHTML = '';
-        document.getElementById("pickedName").innerHTML = names[id-1];
+        document.getElementById("pickedName").innerHTML = id<=names.length ? names[id-1] : "[Name not found]";
         document.getElementById("buttRight").innerHTML = "New Game";
         document.getElementById("headline").innerHTML = "Guess Who";
         picking = false;
@@ -25,7 +27,7 @@ function characterHandler(id){
 
 function buttonHandler(){
     if(picking){
-        let rand = Math.floor(Math.random()*21)+1;
+        let rand = Math.floor(Math.random()*howManyCharacters)+1;
         characterHandler(rand);
     }else{
         document.getElementById("buttRight").innerHTML = "Random";
