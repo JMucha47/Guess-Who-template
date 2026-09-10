@@ -1,3 +1,5 @@
+const howManyCharacters = 21;
+
 const names = [
     "character1",
     "character2",
